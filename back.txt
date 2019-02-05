@@ -1,0 +1,61 @@
+speed t1 14
+speed t2 14
+acc 151 1
+acc 152 1
+acc 101 0
+acc 132 1
+speed t1 20
+block 14
+acc 141 0
+#######
+acc 242 1
+acc 241 0
+acc 231 4
+acc 233 2
+acc 223 4
+acc 101 1
+speed t2 20
+block 2
+acc 223 3
+acc 231 3
+acc 242 0
+acc 250 0
+acc 249 1
+block 13
+acc 132 0
+######
+acc 250 1
+acc 249 0
+acc 231 4
+acc 233 3
+acc 243 0
+acc 244 1
+acc 141 1
+block 10
+acc 101 0
+
+
+{'idle': 0x1, 'speed': 0x2, 'func': 0x3, 'acc': 0x4, 'delay': 0x5, 'block': 0x6}
+#define FUNCR_LIGHT 0x10
+#define FUNCR_SOUND 0x01
+#define FUNCR_HORN1 0x02d
+#define FUNCR_HORN2 0x04
+#define FUNCR_BELL 0x08
+#define FUNCR_BASE 0x80
+
+#define PREAMBLE 0
+#define SEPARATOR 1
+#define SENDBYTE 2
+
+#define LIGHT_RED 0
+#define LIGHT_GREEN 1
+
+#define SWITCH_STRAIGHT 1
+#define SWITCH_TURN 0
+
+#define CROSS_SWITCH_STRAIGHT 1
+#define CROSS_SWITCH_CROSS 0
+
+#define TRIPPLE_SWITCH_STRAIGHT 2
+#define TRIPPLE_SWITCH_RIGHT 3
+#define TRIPPLE_SWITCH_LEFT 4

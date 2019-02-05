@@ -1,0 +1,60 @@
+LIGHT:
+	RED:
+		reg output 0 on
+		reg output 0 off
+	GREEN:
+		reg output 1 on
+		reg output 1 off
+
+TRACK SWITCH
+	STRAIGHT
+		reg output 1 on
+		reg output 1 off
+	TURN
+		reg output 0 on
+		reg output 0 off
+
+CROSS SWITCH
+	STRAIGHT
+		reg output 1 on
+		reg output 1 off
+	CROSS
+		reg output 0 on
+		reg output 0 off
+
+TRIPPLE SWITCH
+	STRAIGHT
+		reg output 1 on
+		reg output 1 off
+		reg+1 output 1 on
+		reg+1 output 1 off
+	RIGHT
+		reg output 0 on
+		reg output 0 off
+		reg+1 output 1 on
+		reg+1 output 1 off
+	LEFT
+		reg output 1 on
+		reg output 1 off
+		reg+1 output 0 on
+		reg+1 output 0 off
+
+
+101
+	154 248		10011010 11111000
+	154 240		10011010 11110000
+	
+	154 249		10011010 11111001
+	154 241		10011010 11110001
+
+102
+	154 250		10011010 11111010
+	154 242		10011010 11110010
+	154 251		10011010 11111011
+	154 243		10011010 11110011
+
+
+
+
+#define COMMAND_LENGTH 2
+uint16_t commands[] = {0x1, 0x3};

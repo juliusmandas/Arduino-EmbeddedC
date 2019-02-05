@@ -1,0 +1,34 @@
+speed 40 24
+speed 7 24
+acc 151 1
+acc 152 1
+acc 101 0
+acc 132 1
+speed 40 24
+block 15
+acc 141 0
+acc 242 1
+acc 241 0
+acc 231 4
+acc 233 2
+acc 223 4
+acc 101 1
+speed 7 24
+block 3
+acc 223 3
+acc 231 3
+acc 242 1
+acc 250 0
+acc 249 1
+acc 241 1
+block 14
+acc 132 0
+acc 250 1
+acc 249 0
+acc 231 4
+acc 233 3
+acc 243 0
+acc 244 1
+acc 141 1
+block 10
+acc 101 0
